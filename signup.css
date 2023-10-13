@@ -1,0 +1,168 @@
+body{overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    
+   
+}
+.backsplash{
+    height: 100%;;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+   
+}
+.container{
+   
+    margin: 0px;
+    padding: 0px;
+    
+    border-color: red;
+    border-width: 0px;
+    border-style: solid;
+    display: flex;
+    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:lightgray;
+   
+   
+
+
+
+}
+
+
+.large_left{
+    border-color: black;
+    border-width: 0px;
+    border-style: solid;
+    width:40%;
+    margin: 0px;
+    padding: 0px;
+    
+    
+   
+    
+    
+
+}
+.large_right{
+    border-color: black;
+    border-width: 0px;
+    border-style: solid;
+    width:60%;
+    margin: 0px;
+    padding: 0px;
+    
+   
+
+}
+.fake_text{
+    
+    width: 100%;
+    height: 26%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+
+}
+.signup_form{
+    width: 100%;
+    height: 28%;
+    background-color:#0c0b0b;
+    
+
+    
+    
+
+}
+.signup{
+    width: 100%;
+    height: 33%;
+
+}
+.large_font{
+    font-size:25px;
+    padding-left: 30px;
+}
+.right_form{
+    float: right;
+    width: 50%;
+    position:relative;
+    bottom:165px;
+    right:-30px;
+  
+    
+}
+.left_form{
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+    
+    position:relative;
+
+}
+input{
+    background-color:black;
+    width: 300px;
+    height:19px;
+    display: block;
+   border-radius: 3px;
+   border-color: black;
+   border-style: ridge;
+   color: aliceblue;
+    
+}
+label{
+    font-size: 14px;
+}
+fieldset{
+    border-style: none;
+    height:300px;
+    width:667.398px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3)
+}
+input:focus{
+    border-color: rgb(25, 25, 25);
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    padding-left: 40px;
+    
+    
+}
+
+
+button{
+    height:43px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: black;
+    color:aliceblue;
+}
+
+.signup_text{
+    font-size: 14px;
+
+}
+.logo{
+    display: flex;
+    position: absolute;
+    border-style: none;
+  
+    gap:20px;
+    bottom:70%;
+    width: 39.79%;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+}
+.ship{
+    height:60px;
+    width:60px;
+    
+
+}
